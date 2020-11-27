@@ -22,7 +22,7 @@ body{
 .main{
     max-width: 1000px;
     padding: 3rem;
-    margin: 3rem 0;
+    margin: 3rem;
     text-align: center;
     background-color: #16161a;
     color: #ffffff;
@@ -67,6 +67,45 @@ input {
 }
 
 .result{
-    margin: 2.5rem 0;
+    margin: 2rem 0;
     font-size: 1.25rem;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .main-title{
+        font-size: 1.75rem;
+        margin: 2rem 0;
+    }
+
+    .main{
+        padding: 1.5rem;
+        margin: 1.5rem;
+        text-align: center;
+    }
+
+    .result{
+        font-size: 1rem;
+    }
+
+    input {
+        margin: 0 0.8rem;
+    }
+
+    label{
+        font-size: 1rem;
+    }
+
+    .submit{
+        padding: 0.4rem 1.2rem;
+        margin: 0 0.5rem;
+        border: none;
+        background: #FF6A88;
+        color: #ffffff;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+
+  }
